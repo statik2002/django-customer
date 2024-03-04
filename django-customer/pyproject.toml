@@ -3,11 +3,13 @@ requires = ['setuptools']
 build-backend = 'setuptools.build_meta'
 
 [project]
-dynamic = ["version"]
+version = "0.0.1a"
 name = "django-customer"
+requires-python = ">= 3.8"
 dependencies = [
     "Django>5.0",
-    "django-phonenumber-field>7.3.0"
+    "django-phonenumber-field",
+    "phonenumbers"
 ]
 authors = [
   {name = "Aleksei Ushakov", email = "statik2002@gmail.com"},
@@ -17,11 +19,9 @@ maintainers = [
 ]
 description = "Custom user model"
 readme="README.md"
+license = {file = "LICENSE"}
 keywords = ["Customer", "Django", "AbstractUserModel", "Extend User"]
 
 [project.urls]
-Homepage = ""
-Documentation = ""
-Repository = ""
-Issues = ""
-Changelog = ""
+Homepage = "https://github.com/statik2002/django-customer"
+Repository = "https://github.com/statik2002/django-customer"

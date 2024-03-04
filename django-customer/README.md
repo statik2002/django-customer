@@ -6,10 +6,13 @@ phone number, email, first name, last name, address. A phone number is used inst
 
 
 ## Quick start
+1. Install Django `pip install Django`
 
-1. Install app `pip install ../django-customer/dist/django-customer-0.1.tar.gz`
+2. Create Django project `django-admin startproject djangoproject`
+
+3. Install app `pip install ../django-customer/dist/django-customer-0.1.tar.gz`
    
-2. Add "customer" to your INSTALLED_APPS setting like this
+4. Add "customer" to your INSTALLED_APPS setting like this
     ```python
    INSTALLED_APPS = [
       ...,
@@ -17,12 +20,12 @@ phone number, email, first name, last name, address. A phone number is used inst
    ]
     ```
     
-3. Add to settings.py 
+5. Add to settings.py 
    ```python
    AUTH_USER_MODEL = 'customer.Customer'
    ```
-4. Run `python manage.py migrate` to create the models.
+6. Run `python manage.py migrate` to create the models.
 
-5. Execute the command `manage.py createsuperuser` and enter phone number and password
+7. Execute the command `manage.py createsuperuser` and enter phone number and password
 
 Enjoy
