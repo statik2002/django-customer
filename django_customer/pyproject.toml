@@ -1,3 +1,7 @@
 [build-system]
 requires = ['setuptools']
 build-backend = 'setuptools.build_meta'
+dependencies = [
+    "Django>5.0",
+    "django-phonenumber-field>7.3.0"
+]
