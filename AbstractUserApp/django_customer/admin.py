@@ -1,8 +1,8 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
-from AbstractUser.admin_forms import UserChangeForm, UserCreationForm
-from AbstractUser.models import Customer
+from django_customer.admin_forms import UserChangeForm, UserCreationForm
+from django_customer.models import Customer
 
 
 @admin.register(Customer)

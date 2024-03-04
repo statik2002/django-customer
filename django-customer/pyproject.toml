@@ -1,0 +1,27 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+dynamic = ["version"]
+name = "django-customer"
+dependencies = [
+    "Django>5.0",
+    "django-phonenumber-field>7.3.0"
+]
+authors = [
+  {name = "Aleksei Ushakov", email = "statik2002@gmail.com"},
+]
+maintainers = [
+  {name = "Aleksei Ushakov", email = "statik2002@gmail.com"}
+]
+description = "Custom user model"
+readme="README.md"
+keywords = ["Customer", "Django", "AbstractUserModel", "Extend User"]
+
+[project.urls]
+Homepage = ""
+Documentation = ""
+Repository = ""
+Issues = ""
+Changelog = ""
