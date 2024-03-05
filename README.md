@@ -6,7 +6,7 @@ phone number, email, first name, last name, address. A phone number is used inst
 
 
 ## Quick start
-1. Download archive from [/django-customer/dist/django-customer-0.1.tar.gz]()
+1. Download archive from [/django-customer/dist/django-customer-0.1.tar.gz](https://github.com/statik2002/django-customer/tree/master/django-customer/dist/django-customer-0.1.tar.gz)
 
 1. Install Django `pip install Django`
 
