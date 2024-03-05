@@ -30,4 +30,15 @@ phone number, email, first name, last name, address. A phone number is used inst
 
 7. Execute the command `manage.py createsuperuser` and enter phone number and password
 
-Enjoy
+## Usage
+
+A superuser will be created in the admin panel case with the following fields:
+- phone_number. This field such a login
+- is_active. Active user or not
+- first_name.
+- last_name.
+- email
+- address
+- is_admin
+
+  
